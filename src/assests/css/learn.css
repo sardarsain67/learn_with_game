@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 40rem;
+}
+.image{
+    flex: 1;
+}
+.cardContent{
+    flex: 2;
+} */
+.card{
+    width: 550px;
+}
+.image{
+    
+    border-radius: 20px;
+}
+.cardHeader{
+    background-color: aqua;
+}
+.learnMain{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/learn-1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 12px 24px;
+
+}

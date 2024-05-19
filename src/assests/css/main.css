@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    padding: 40px 0;
+    background-color: rgb(184, 204, 68);
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    background: white;
+    border-radius: 3px;
+    top: 7vmin;
+    left: -18vmin;
+    text-align: left;
+    padding: 10px 15px;
+    font-family: "Rubik",cursive;
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 2px 15px;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 1.1em;
+    color: rgba(190, 120, 10, 0.5);
+}
+
+/* =========Learn========= */
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(../img/main-5.jpg);
+    background-position: -24rem -19rem;
+    background-size: 130%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content > h1{
+    font-family: "Patua One",cursive;
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content > p{
+    font-family: "Rubik",cursive;
+    font-size: 5vmin;
+    color: #e5e5e5;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 8rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+.numbers{
+    /* Rectangle box will move on upside */
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    font-size: 5rem;
+    color: tomato;
+}
+.numbers .rect p{
+    font-family: "Patua One",cursive;
+}
+
+/* =========Learn========= */
+.card{
+    align-items: center;
+    margin: 5px auto;
+    background: #afb92396;
+}
+.cardRow{
+    padding: 15px 10px;
+}
+.cardTitle{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.btnStyle{
+    width: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.cardText{
+    font-size: 15px;
+    font-style: oblique;
+    text-align: center;
+}
+.cardImg{
+    width: 100%;
+    height: 200px;
+}

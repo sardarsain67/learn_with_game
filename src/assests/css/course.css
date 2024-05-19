@@ -1,0 +1,62 @@
+.courseMain{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg-2.jpg)no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+    margin-top: 0;
+}
+.title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.form-label{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+}
+.courseMain .btn{
+    width: 30%;
+    margin-left: 13rem;
+}
+
+.add-heading{
+    background-color: aqua;
+}
+.courseMain .btn:hover{
+    background: linear-gradient(to right, #686de0, #30336b);
+}
+.showCourseBtn{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg-2.jpg)no-repeat;
+    background-size: cover;
+}
+.courseContent{
+    font-size: 1.5rem;
+    font-weight: 450;
+    color: #f5bfbf;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding: 25px;
+}
+.buttons-container {
+    margin: 0;
+    text-align: center; /* Center align buttons */
+    /*margin-bottom: 20px;*/ /* Add some spacing */
+    /* padding: 1rem;*/ 
+    height: 60vh;
+  }
+  
+  .table {
+    width: 100%; /* Make table responsive */
+  }
+  
+  .table th,
+  .table td {
+    text-align: center; /* Center align table cells */
+  }
+  .home-section {
+  background-color: #f0f0f0; /* Set background color for the home section */
+  padding: 20px; /* Add padding to create space around the buttons */
+}

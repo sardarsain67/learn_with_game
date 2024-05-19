@@ -1,0 +1,31 @@
+/* AdminHome.css */
+.container {
+    max-width: 600px; /* Limit container width */
+  }
+  
+  .main{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg-2.jpg)no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 0;
+}
+.title{
+    color: #fff;
+    height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.adminBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.btn-block {
+    margin: 20px; /* Add margin to top of buttons */
+    margin-top: 20px;
+}
+.btn-block:hover{
+  background: linear-gradient(to right, #686de0, #30336b);
+}

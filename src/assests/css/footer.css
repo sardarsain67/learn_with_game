@@ -1,0 +1,114 @@
+.footer{
+    background-color: #2d2d32;
+}
+.sbFooter{
+    display: flex;
+    flex-direction: column;
+}
+.sectionPadding{
+    padding: 1rem 1rem;
+}
+.sbFooterLinks{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem; */
+}
+.sbFooterLinksDiv{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+}
+.sbFooterLinksDiv h4{
+    color: #fff;
+    font-size: 20px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+.sbFooterLinksDiv a{
+    text-decoration: none;
+    color: orange;
+}
+.sbFooterLinksDiv p{
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 0.5rem 0;
+    cursor: pointer;
+}
+/* a{
+    color: rgb(175,175,179);
+    text-decoration: none;
+} */
+
+.sbFooterBelow{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.sbFooterCopyright p{
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(255,255,255);
+    font-weight: 600;
+}
+.sbFooterBelowLinks{
+    display: flex;
+    /* flex-direction: row; */
+}
+.sbFooterBelowLinks a{
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.socialMedia{
+    display: flex;
+    /* flex-direction: row; */    
+}
+.socialMedia img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-right: 1em
+}
+.sbFooterBelowLinks p{
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: 600;
+}
+hr{
+    color: #fff !important;
+    width: 100%;
+}
+
+
+@media screen and (max-width:850px) {
+
+    
+}
+@media screen and (max-width:550px) {
+    .sbFooterLinks div{
+        margin: 1rem 0;
+    }
+    .sbFooterBelow{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .sbFooterBelowLinks{
+        flex-direction: column;
+    }
+    .sbFooterBelowLinks p{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }   
+}
+@media screen and (max-width:400px) {
+
+}

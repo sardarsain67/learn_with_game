@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.leader{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10px 15px;
+}
+.cardBody{
+    border-radius: 20px;
+}
+
+.courseSelect {
+    margin: 30px; /* Add margin bottom for spacing */
+  }
+  
+  .form-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da; /* Bootstrap default border color */
+    width: 100%;
+    max-width: 300px; /* Set max width */
+  }
+  
+  /* Style for select box when hovered */
+  .form-select:hover {
+    border-color: #6c757d; /* Bootstrap default hover border color */
+  }
+  
+  

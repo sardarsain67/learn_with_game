@@ -1,0 +1,91 @@
+.buttons-container {
+    margin: 2rem;
+    text-align: center; /* Center align buttons */
+    /*margin-bottom: 20px;*/ /* Add some spacing */
+    /* padding: 1rem; */
+    height: 60vh;
+  }
+  
+  .table {
+    width: 100%; /* Make table responsive */
+  }
+  
+  .table th,
+  .table td {
+    text-align: center; /* Center align table cells */
+  }
+  .home-section {
+  background-color: #f0f0f0; /* Set background color for the home section */
+  padding: 20px; /* Add padding to create space around the buttons */
+}
+
+.buttons-container {
+    /* padding: 1rem; */
+  text-align: center; /* Center align buttons */
+  /*margin-bottom: 20px;*/ /* Add some spacing */
+}
+
+.table {
+  width: 100%; /* Make table responsive */
+}
+
+.table th,
+.table td {
+  text-align: center; /* Center align table cells */
+}
+.custom-form-container {
+  background: linear-gradient(to right, #30336b, #7ed6df);
+  width: 70%; /* Adjust the width as needed */
+  padding: 20px;
+  margin: 1rem;
+  color: #f0f0f0;
+  border-radius: 20px;
+}
+.questionMain{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg-2.jpg)no-repeat;
+  background-size: cover;
+  height: 70vh; /* Set height to cover entire viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align content vertically */
+  align-items: center; 
+}
+.quesContent{
+font-size: 1.5rem;
+font-weight: 450;
+color: #f5bfbf;
+text-align: center;
+text-transform: uppercase;
+font-family: cursive;
+padding: 70px 12px;
+
+}
+.addQuestionMain{
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/main-5.jpg)no-repeat;
+background-size: cover;
+}
+
+/* Custom CSS */
+.custom-dropdown {
+  margin: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select {
+  background-color: #f8f9fa; /* Light gray background */
+}
+/* Custom CSS */
+/* Custom CSS */
+.options-list {
+  list-style-type: none; /* Remove default list style */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.numbered-option {
+  counter-increment: option-counter; /* Increment the counter */
+}
+
+.numbered-option::before {
+  content: counter(option-counter) "). "; /* Display the counter value followed by parentheses */
+}
+

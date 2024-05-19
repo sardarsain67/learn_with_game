@@ -1,0 +1,13 @@
+.courseListMain{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/bg-2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 12px 24px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 550;
+    color: #fff;
+    text-align: center;
+
+}

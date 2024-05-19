@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 15px 20px;
+    background-image: url(../img/main-5.jpg);
+}
+.profile img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+.profileDetails{
+    margin-left: 20px;
+}
+.profileDetails h1{
+    font-size: 5em;
+    font-weight: 550;
+    color: #fff;
+    margin-top: 1rem;
+}
+.profileDetails .col-form-label{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+}
+.col-sm-5 h2{
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+.progressContainer {
+    border-right: 1px solid #dee2e6; /* Add border to the right side */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding: 2rem;
+  }
+  
+  .badgesSection {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    border-left: 1px solid #dee2e6; /* Add border to the left side */
+  }
